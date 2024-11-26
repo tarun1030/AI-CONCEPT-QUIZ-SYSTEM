@@ -1,0 +1,333 @@
+
+---
+
+### How to Use
+
+1. **Clone or Create the Project**:
+   - Create the folder structure as outlined.
+   - Add the files in their respective directories.
+
+2. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+2024-11-23 15:27:49,409 - New client connected
+2024-11-23 15:27:49,462 - Received message: Hello Server! This is a test message.
+2024-11-23 15:40:14,915 - New client connected
+2024-11-23 15:40:14,918 - Received message: Hello Server! This is a test message.
+2024-11-23 15:43:15,272 - Client disconnected
+2024-11-23 18:14:11,298 - New client connected
+2024-11-23 18:15:22,053 - Client disconnected
+2024-11-23 18:49:00,562 - Use pytorch device_name: cpu
+2024-11-23 18:49:00,562 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-11-23 18:49:32,199 - New client connected
+2024-11-23 18:49:39,960 - Received message: 1
+2024-11-23 18:50:09,268 - Received message: Artificial Intelligence is about making machines think and act like humans.
+2024-11-23 18:50:22,228 - Client disconnected
+2024-11-23 18:51:49,619 - Use pytorch device_name: cpu
+2024-11-23 18:51:49,619 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-11-23 18:52:29,009 - New client connected
+2024-11-23 18:52:34,811 - Received message: 1
+2024-11-23 18:53:06,452 - Received message: artificial intelligence is making machines think.
+2024-11-23 18:53:48,851 - Client disconnected
+2024-11-23 18:54:01,248 - Use pytorch device_name: cpu
+2024-11-23 18:54:01,248 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-11-23 19:00:45,858 - Use pytorch device_name: cpu
+2024-11-23 19:00:45,858 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-11-23 19:01:10,488 - New client connected
+2024-11-23 19:01:44,462 - Received response: Artificial intelligence refers to the simulation of human intelligence in machines.
+2024-11-23 19:03:03,686 - Use pytorch device_name: cpu
+2024-11-23 19:03:03,686 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-11-23 19:03:17,455 - New client connected
+2024-11-23 19:03:44,140 - Received response: Artificial intelligence refers to the simulation of human intelligence.
+2024-11-23 19:16:36,917 - New client connected
+2024-11-23 19:18:23,504 - New client connected
+2024-11-23 19:18:29,593 - Received response: Artificial intelligence is the simulation of human intelligence in machines.
+2024-11-23 19:18:36,689 - Received response: Artificial intelligence is the simulation of human intelligence in machines.
+2024-11-23 19:19:09,136 - Client disconnected
+2024-11-24 00:28:23,218 - New client connected
+2024-11-24 00:28:47,223 - Received response: Artificial intelligence is the simulation of human intelligence.
+2024-11-24 00:30:49,066 - New client connected
+2024-11-24 00:31:01,863 - Received response: Artificial intelligence is the simulation of human intelligence in machines.
+2024-11-24 00:31:20,253 - Received response: Machine learning is a subset of AI.
+2024-11-24 00:31:46,899 - Received response: Deep learning is a subset of machine.
+2024-11-24 00:32:12,077 - Received response: Supervised learning is a machine learning.
+2024-11-24 00:37:24,062 - New client connected
+2024-11-24 00:37:34,587 - Received response: Deep learning is a subset of machine learning using neural networks to process large amounts of data.
+2024-11-24 00:37:44,251 - Received response: Machine learning is a subset of AI that involves training machines to learn from data.
+2024-11-24 00:38:09,926 - Received response: Deep learning is a  neural networks to process large amounts of data.
+2024-11-24 00:38:32,556 - Received response: Supervised learning is a machine learning technique.
+2024-11-24 00:42:03,106 - New client connected
+2024-11-24 00:42:14,459 - Received response: Artificial intelligence is the simulation of human intelligence in machines.
+2024-11-24 00:42:20,621 - Received response: Supervised learning is a machine learning technique using labeled data to train algorithms
+2024-11-24 00:42:40,893 - Received response: Deep learning is a subset of machine learning using neural networks to process large amounts of data.
+2024-11-24 00:42:48,489 - Received response: Artificial intelligence is the simulation of human intelligence in machines.
+2024-11-24 00:46:06,452 - New client connected
+2024-11-24 00:46:15,213 - Received response: uvicorn server:app --timeout-keep-alive 60
+2024-11-24 00:46:34,159 - Received response: Supervised learning is a machine learning technique using labeled data to train algorithms
+2024-11-24 00:46:45,147 - Received response: Artificial intelligence is the simulation of human intelligence in machines.
+2024-11-24 00:46:56,655 - Received response: Supervised learning is a machine learning technique using labeled data to train algorithms
+2024-11-24 00:46:56,728 - Session ended for the client.
+2024-11-24 00:52:21,553 - New client connected
+2024-11-24 00:52:30,576 - Received response: Artificial intelligence is the simulation of human intelligence in machines.
+2024-11-24 00:52:38,301 - Received response: Supervised learning is a machine learning technique using labeled data to train algorithms
+2024-11-24 00:52:47,975 - Received response: Artificial intelligence is the simulation of human intelligence in machines.
+2024-11-24 00:52:54,932 - Received response: Supervised learning is a machine learning technique using labeled data to train algorithms
+2024-11-24 01:03:46,885 - New client connected
+2024-11-24 01:04:07,457 - Received response: The Turing Test is a method of determining whether a machine can exhibit human-like intelligence.
+2024-11-24 01:04:22,456 - Received response: The Turing Test is a method of determining whether a machine can exhibit human-like intelligence.
+2024-11-24 01:04:31,826 - Client disconnected
+2024-11-24 01:07:44,750 - New client connected
+2024-11-24 01:08:00,282 - Received response: Artificial intelligence is the simulation of human intelligence in machines.
+2024-11-24 01:15:29,885 - New client connected
+2024-11-24 01:15:47,069 - Received response: Artificial intelligence is the simulation of human intelligence in machines.
+2024-11-24 01:18:53,999 - New client connected
+2024-11-24 01:19:02,425 - Received response: Artificial intelligence is the simulation of human intelligence in machines.
+2024-11-24 01:35:13,075 - New client connected
+2024-11-24 01:35:30,071 - Received response: Bias in machine learning refers to systematic errors introduced by incorrect assumptions in the learning algorithm.
+2024-11-24 01:35:46,184 - Received response: yes
+2024-11-24 01:36:55,286 - Client disconnected
+2024-11-24 01:40:08,670 - New client connected
+2024-11-24 01:40:29,701 - Received response: A decision tree is a flowchart-like structure used for decision-making and predictive modeling in machine learning.
+2024-11-24 01:41:20,670 - New client connected
+2024-11-24 01:41:39,302 - Received response: Deep learning is a subset of machine learning using neural networks to process large amounts of data.
+2024-11-24 01:41:56,492 - Received response: yes
+2024-11-24 01:42:06,485 - Received response: yes
+2024-11-24 01:43:03,512 - Client disconnected
+2024-11-24 01:47:22,067 - New client connected
+2024-11-24 01:47:36,947 - Received response: Feature engineering is the process of selecting and transforming data features to improve model performance.
+2024-11-24 01:47:53,176 - Received response: yes
+2024-11-24 01:48:25,506 - Received response: Supervised learning is a machine learning technique using labeled data to train algorithms.
+2024-11-24 01:48:59,836 - Client disconnected
+2024-11-24 01:49:50,692 - New client connected
+2024-11-24 01:50:05,183 - Received response: Machine learning is a subset of AI that involves training machines to learn from data.
+2024-11-24 01:50:24,126 - Received response: yes
+2024-11-24 01:50:49,052 - Received response: yes
+2024-11-24 01:50:52,211 - Received response: yes
+2024-11-24 01:51:01,158 - Received response: yes
+2024-11-24 01:51:22,776 - Received response: exit
+2024-11-24 01:56:34,981 - New client connected
+2024-11-24 01:56:54,891 - Received response: Data preprocessing involves cleaning and preparing raw data to make it suitable for machine learning models.
+2024-11-24 01:57:04,137 - Received response: yes
+2024-11-24 01:57:20,491 - Client disconnected
+2024-11-24 01:57:40,262 - New client connected
+2024-11-24 01:57:53,013 - Received response: A decision tree is a flowchart-like structure used for decision-making and predictive modeling in machine learning.
+2024-11-24 01:58:03,663 - Received response: yes
+2024-11-24 01:58:27,245 - Received response: yes
+2024-11-24 01:58:31,118 - Received response: yes
+2024-11-24 01:58:38,090 - Received response: yes
+2024-11-24 01:59:06,913 - Received response: yes
+2024-11-24 01:59:09,289 - Received response: yes
+2024-11-24 01:59:29,131 - Received response: yes
+2024-11-24 01:59:32,662 - Received response: yes
+2024-11-24 01:59:40,402 - Received response: yes
+2024-11-24 02:00:04,772 - Received response: exit
+2024-11-24 02:14:05,673 - New client connected
+2024-11-24 02:14:23,325 - Received response: AI is a broad concept of creating intelligent machines, ML is a subset of AI focused on learning from data, and DL is a subset of ML using neural networks.
+2024-11-24 02:14:32,887 - Received response: yes
+2024-11-24 02:15:46,259 - Client disconnected
+2024-11-24 02:20:19,042 - New client connected
+2024-11-24 02:20:40,597 - Received response: Underfitting occurs when a machine learning model is too simple to capture the underlying patterns in the data.
+2024-11-24 02:21:10,884 - Received response: Reinforcement learning is a type of machine learning where an agent learns to make decisions by receiving rewards or penalties.
+2024-11-24 02:21:29,498 - Received response: Machine learning is a subset of AI that involves training machines to learn from data.
+2024-11-24 02:21:53,547 - Received response: Reinforcement learning is a type of machine learning where an agent learns to make decisions by receiving rewards or penalties.
+2024-11-24 02:24:40,951 - New client connected
+2024-11-24 02:25:00,791 - Received response: The Turing Test is a method of determining whether a machine can exhibit human-like intelligence.
+2024-11-24 02:25:20,594 - Received response: An activation function determines the output of a neural network layer and introduces non-linearity into the model.
+2024-11-24 02:25:39,187 - Received response: Variance refers to the model's sensitivity to changes in the training data, often leading to overfitting.
+2024-11-24 02:27:02,685 - New client connected
+2024-11-24 02:27:19,061 - Received response: Data preprocessing involves cleaning and preparing raw data to make it suitable for machine learning models.
+2024-11-24 02:27:44,198 - Received response: Computer vision is a field of AI that enables computers to interpret and process visual data like images and videos.
+2024-11-24 02:28:19,038 - Received response: overfitting occurs when a machine learning model is too simple to capture the underlying patterns in the data.
+2024-11-24 02:30:22,461 - New client connected
+2024-11-24 02:31:05,004 - Client disconnected
+2024-11-24 02:31:15,482 - New client connected
+2024-11-24 02:31:30,822 - Received response: Artificial intelligence is the simulation of human intelligence in machines.
+2024-11-24 02:32:03,122 - Received response: Feature engineering is the process of selecting and transforming data features to improve model performance.
+2024-11-24 02:34:15,945 - New client connected
+2024-11-24 02:34:46,116 - Received response: computer  is the process of selecting and transforming data features to improve model performance.
+2024-11-24 02:35:19,041 - Received response: Bias in machine learning refers to systematic errors introduced by incorrect assumptions in the learning algorithm.
+2024-11-24 02:36:59,546 - New client connected
+2024-11-24 02:37:14,961 - Received response: Unsupervised learning is a machine learning technique that works with unlabeled data to find hidden patterns.
+2024-11-24 02:37:46,651 - Client disconnected
+2024-11-24 02:37:54,228 - New client connected
+2024-11-24 02:38:25,391 - Received response: gradent descent tuning involves optimizing the configuration of a machine learning model to improve its performance.
+2024-11-24 02:44:17,065 - New client connected
+2024-11-24 02:44:45,198 - Received response: Unsupervised learning is a machine learning technique that works with unlabeled data to find hidden patterns.
+2024-11-24 02:45:05,360 - Received response: Machine learning is a subset of AI that involves training machines to learn from data.
+2024-11-24 02:46:27,060 - New client connected
+2024-11-24 02:46:46,904 - Received response: Deep learning is a subset of machine learning using neural networks to process large amounts of data.
+2024-11-24 02:47:12,465 - Received response: A support vector machine is a supervised learning algorithm used for classification and regression tasks.
+2024-11-24 02:47:31,622 - Received response: An activation function determines the output of a neural network layer and introduces non-linearity into the model.
+2024-11-24 02:51:06,537 - New client connected
+2024-11-24 02:51:17,352 - Received response: An activation function determines the output of a neural network layer and introduces non-linearity into the model.
+2024-11-24 02:51:38,951 - Received response: Overfitting occurs when a machine learning model learns the training data too well and performs poorly on new data.
+2024-11-24 02:53:50,801 - New client connected
+2024-11-24 02:54:03,583 - Received response: A support vector machine is a supervised learning algorithm used for classification and regression tasks.
+2024-11-24 02:54:29,071 - Received response: Reinforcement learning is a type of machine learning where an agent learns to make decisions by receiving rewards or penalties.
+2024-11-25 13:16:45,411 - New client connected
+2024-11-25 13:17:28,253 - Client disconnected
+2024-11-25 13:17:46,792 - New client connected
+2024-11-25 13:17:49,553 - Received response: clustering ia an unsupervised learning technique
+2024-11-25 13:18:03,272 - Received response: clustering ia an unsupervised learning technique
+2024-11-25 13:18:15,223 - Received response: clustering ia an unsupervised learning technique
+2024-11-25 13:18:46,333 - Received response: decision tree
+2024-11-25 13:19:14,301 - Received response: machine learning overfitting
+2024-11-25 13:19:39,447 - New client connected
+2024-11-25 13:20:02,336 - Received response: transfer learning save time
+2024-11-25 13:28:52,752 - New client connected
+2024-11-25 13:29:42,773 - Client disconnected
+2024-11-25 13:49:54,231 - Client disconnected
+2024-11-25 13:50:51,181 - Client disconnected
+2024-11-25 14:03:23,778 - Client disconnected
+2024-11-25 14:06:33,018 - Client disconnected
+2024-11-25 14:20:10,664 - Client disconnected
+2024-11-25 14:22:26,692 - Client disconnected
+2024-11-25 14:22:27,988 - Client disconnected
+2024-11-25 14:22:29,681 - Client disconnected
+2024-11-25 14:25:00,677 - Client disconnected
+2024-11-25 14:33:24,556 - Client disconnected
+2024-11-25 14:41:08,531 - Client disconnected
+2024-11-25 14:48:24,396 - Client disconnected
+2024-11-25 14:49:52,299 - Client disconnected
+2024-11-25 14:51:52,157 - Client disconnected
+2024-11-25 14:52:42,103 - Client disconnected
+2024-11-25 14:53:54,029 - Client disconnected
+2024-11-25 14:56:58,311 - Client disconnected
+2024-11-25 14:57:45,218 - Client disconnected
+2024-11-25 14:58:07,357 - Client disconnected
+2024-11-25 14:58:57,818 - Client disconnected
+2024-11-25 14:59:14,920 - Client disconnected
+2024-11-25 15:02:53,824 - Client disconnected
+2024-11-25 15:03:32,455 - Client disconnected
+2024-11-25 15:04:18,462 - Client disconnected
+2024-11-25 15:04:36,152 - Client disconnected
+2024-11-25 15:04:58,453 - Client disconnected
+2024-11-25 15:07:19,843 - Client disconnected
+2024-11-25 15:08:42,213 - Client disconnected
+2024-11-25 15:09:21,644 - Client disconnected
+2024-11-25 15:09:34,126 - Client disconnected
+2024-11-25 15:09:56,896 - Client disconnected
+2024-11-25 15:11:05,975 - Client disconnected
+2024-11-25 15:11:19,197 - Client disconnected
+2024-11-25 15:17:50,264 - Client disconnected
+2024-11-25 15:17:58,687 - Client disconnected
+2024-11-25 15:19:13,414 - Client disconnected
+2024-11-25 15:19:42,916 - Client disconnected
+2024-11-25 18:28:13,184 - Client disconnected
+2024-11-25 18:34:46,136 - Client disconnected
+2024-11-25 18:35:45,643 - Client disconnected
+2024-11-25 18:36:47,364 - Client disconnected
+2024-11-25 18:40:25,329 - Client disconnected
+2024-11-25 18:40:45,372 - Client disconnected
+2024-11-25 18:43:03,099 - Client disconnected
+2024-11-25 18:43:25,879 - Client disconnected
+2024-11-25 18:48:24,821 - Client disconnected
+2024-11-25 18:48:26,476 - Client disconnected
+2024-11-25 18:49:23,627 - Client disconnected
+2024-11-25 18:50:41,040 - Client disconnected
+2024-11-25 18:50:42,538 - Client disconnected
+2024-11-25 18:59:45,080 - Client disconnected
+2024-11-25 18:59:45,082 - Client disconnected
+2024-11-25 19:01:05,555 - Client disconnected
+2024-11-25 19:01:17,433 - Client disconnected
+2024-11-25 19:02:24,062 - Client disconnected
+2024-11-25 19:02:40,005 - Client disconnected
+2024-11-25 19:02:44,037 - Client disconnected
+2024-11-25 19:05:54,905 - Client disconnected
+2024-11-25 19:08:09,302 - Client disconnected
+2024-11-25 19:25:06,183 - Client disconnected
+2024-11-25 19:25:53,113 - Client disconnected
+2024-11-25 19:38:38,642 - Client disconnected
+2024-11-25 19:39:03,856 - Client disconnected
+2024-11-25 19:39:16,597 - Client disconnected
+2024-11-25 19:49:44,262 - Client disconnected
+2024-11-25 19:49:52,317 - Client disconnected
+2024-11-25 19:50:01,512 - Client disconnected
+2024-11-25 19:53:23,298 - Client disconnected
+2024-11-25 19:55:33,781 - Client disconnected
+2024-11-25 19:57:42,731 - Client disconnected
+2024-11-25 19:58:03,152 - Client disconnected
+2024-11-25 19:58:11,814 - Client disconnected
+2024-11-25 20:00:18,122 - Client disconnected
+2024-11-25 20:02:52,005 - Client disconnected
+2024-11-25 20:05:50,835 - Client disconnected
+2024-11-25 20:08:50,747 - Client disconnected
+2024-11-25 20:10:38,054 - Client disconnected
+2024-11-25 20:13:14,306 - Client disconnected
+2024-11-25 20:14:08,430 - Client disconnected
+2024-11-25 20:14:21,811 - Client disconnected
+2024-11-25 20:27:46,318 - Client disconnected
+2024-11-25 20:30:04,840 - Client disconnected
+2024-11-25 20:34:45,735 - Client disconnected
+2024-11-25 20:36:52,195 - Client disconnected
+2024-11-25 20:37:30,757 - Client disconnected
+2024-11-25 20:40:35,376 - Client disconnected
+2024-11-25 20:41:21,770 - Client disconnected
+2024-11-25 20:46:16,330 - Client disconnected
+2024-11-25 20:47:43,918 - Client disconnected
+2024-11-25 20:47:58,773 - Client disconnected
+2024-11-25 21:56:35,525 - Client disconnected
+2024-11-25 22:01:06,584 - Client disconnected
+2024-11-25 23:43:26,828 - Client disconnected
+2024-11-25 23:50:19,605 - Client disconnected
+2024-11-26 10:58:36,639 - Client disconnected
+2024-11-26 11:01:23,300 - Client disconnected
+2024-11-26 11:04:12,536 - Client disconnected
+2024-11-26 11:05:48,286 - Client disconnected
+2024-11-26 11:14:09,525 - Client disconnected
+2024-11-26 11:15:44,136 - Client disconnected
+2024-11-26 11:18:33,788 - Client disconnected
+2024-11-26 11:19:26,838 - Client disconnected
+2024-11-26 11:22:21,278 - Client disconnected
+2024-11-26 11:26:16,546 - Client disconnected
+2024-11-26 11:27:37,790 - Client disconnected
+2024-11-26 11:31:29,555 - Client disconnected
+2024-11-26 11:37:25,147 - Client disconnected
+2024-11-26 11:42:58,331 - Client disconnected
+2024-11-26 11:43:01,208 - Client disconnected
+2024-11-26 11:44:43,018 - Client disconnected
+2024-11-26 11:45:21,028 - Client disconnected
+2024-11-26 11:48:22,918 - Client disconnected
+2024-11-26 11:49:50,040 - Client disconnected
+2024-11-26 12:10:10,691 - Client disconnected
+2024-11-26 12:12:44,245 - Client disconnected
+2024-11-26 12:21:51,533 - Client disconnected
+2024-11-26 12:27:36,172 - Client disconnected
+2024-11-26 12:33:28,098 - Client disconnected
+2024-11-26 12:40:26,351 - Client disconnected
+2024-11-26 12:43:49,977 - Client disconnected
+2024-11-26 12:44:01,163 - Client disconnected
+2024-11-26 12:45:39,781 - Client disconnected
+2024-11-26 13:08:25,992 - Client disconnected
+2024-11-26 13:23:55,992 - Client disconnected
+2024-11-26 13:28:32,862 - Client disconnected
+2024-11-26 13:31:01,213 - Client disconnected
+2024-11-26 13:31:22,630 - Client disconnected
+2024-11-26 13:33:31,833 - Client disconnected
+2024-11-26 13:33:53,894 - Client disconnected
+2024-11-26 13:35:15,881 - Client disconnected
+2024-11-26 13:39:26,816 - Client disconnected
+2024-11-26 13:44:43,910 - Client disconnected
+2024-11-26 13:51:58,056 - Client disconnected
+2024-11-26 13:52:33,950 - Client disconnected
+2024-11-26 14:00:31,434 - Client disconnected
+2024-11-26 14:04:06,969 - Client disconnected
+2024-11-26 14:06:07,615 - Client disconnected
+2024-11-26 14:07:25,423 - Client disconnected
+2024-11-26 14:09:21,060 - Client disconnected
+2024-11-26 14:10:08,558 - Client disconnected
+2024-11-26 14:13:31,502 - Client disconnected
+2024-11-26 15:47:35,194 - User completed the quiz with a score of 0.
+2024-11-26 15:48:58,692 - User completed the quiz with a score of 0.
+2024-11-26 17:09:23,960 - Client disconnected unexpectedly.
+2024-11-26 17:09:25,390 - Client disconnected unexpectedly.
+2024-11-26 17:10:22,780 - Client disconnected unexpectedly.
+2024-11-26 17:16:07,980 - Client disconnected
+2024-11-26 17:19:38,052 - User completed the quiz with a score of 0.
+2024-11-26 17:19:58,353 - Client disconnected unexpectedly.
+2024-11-26 17:20:31,512 - Use pytorch device_name: cpu
+2024-11-26 17:20:31,512 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-11-26 17:28:38,428 - Client disconnected
+2024-11-26 17:30:59,754 - Client disconnected
+2024-11-26 17:31:27,674 - Client disconnected
+2024-11-26 17:33:51,662 - Client disconnected

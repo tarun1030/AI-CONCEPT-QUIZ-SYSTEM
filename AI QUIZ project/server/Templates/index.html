@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Quiz</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>AI Quiz</h1>
+        <p id="message"></p>
+        <p id="question"></p>
+        <p id="feedback"></p>
+        <p id="comment"></p>
+        <p id="score"></p>
+        <input type="text" id="response" placeholder="Your answer here" aria-label="Answer input field">
+        <div id="buttons-container">
+            <button id="submit-btn" aria-label="Submit your answer">Submit Answer</button>
+            <button id="next-btn" style="display: none;" aria-label="Move to next question">Next Question</button>
+            <button id="end-btn" style="display: none;" aria-label="End the quiz">End Quiz</button>
+            <button id="restart-btn" style="display: none;" aria-label="Restart the quiz">Restart Quiz</button>
+        </div>
+    </div>
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

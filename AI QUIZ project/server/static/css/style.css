@@ -1,0 +1,114 @@
+/* General styling */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Improved fallback font */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+    background-color: #f1f1f1; /* Optional: light background color */
+}
+
+/* Header styling */
+h1 {
+    color: #333;
+}
+
+/* Container styling */
+#quiz-container {
+    max-width: 600px;
+    width: 100%; /* Ensure it takes full width until the max-width */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Input and button styling */
+input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* Buttons container layout */
+#buttons-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Button default styles */
+#submit-btn,
+#next-btn,
+#end-btn,
+#restart-btn {
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Individual button colors */
+#submit-btn {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+#next-btn {
+    background-color: #008CBA; /* Blue */
+    color: white;
+}
+
+#end-btn {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+
+/* Stronger styling for restart button */
+#restart-btn {
+    background-color: #8d35eb !important; /* Green */
+    color: white;
+    border-radius: 5px;
+}
+
+/* Input field styling */
+input {
+    width: 80%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button visibility control */
+button {
+    display: none;
+}
+
+button.visible {
+    display: block;
+}
+
+/* Optional: Smooth button appearance */
+button {
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    #quiz-container {
+        padding: 10px;
+        width: 100%;
+    }
+
+    input, button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
