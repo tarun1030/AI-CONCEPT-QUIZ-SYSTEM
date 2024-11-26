@@ -33,10 +33,10 @@ An advanced system designed to provide *real-time scoring and feedback* on AI-re
 
 ### Prerequisites
 
--FastAPI: For building the backend server.
--WebSocket: For real-time, bidirectional communication.
--HTML/CSS/JavaScript: For the frontend.
--Python: Core programming language.
+- *FastAPI: For building the backend server.
+- *WebSocket: For real-time, bidirectional communication.
+- *HTML/CSS/JavaScript: For the frontend.
+- *Python: Core programming language.
 
 ### Steps
 
