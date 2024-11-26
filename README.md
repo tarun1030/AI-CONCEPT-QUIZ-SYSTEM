@@ -1,4 +1,4 @@
-# 🧠 AI WebSocket Feedback System
+# 🧠 AI CONCEPT QUIZ SYSTEM
 
 An advanced system designed to provide *real-time scoring and feedback* on AI-related questions. This project includes secure WebSocket integration, prompt engineering, response caching, and robust error handling to ensure seamless performance under concurrent loads. 
 
